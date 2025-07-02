@@ -1,90 +1,109 @@
+# 🛍️ Retail Sales Insights Dashboard
 
-# 🛍️ Retail Performance Dashboard
+### Uncovering customer trends, product performance, and revenue drivers using SQL and Tableau.
 
-### Unlocking insights from transactional data to drive better product, marketing, and operational decisions.
-
-This project analyzes customer transaction data from a retail business using SQL and Tableau. The dashboard reveals key trends in revenue performance and customer buying behavior, enabling stakeholders to make informed decisions around inventory, promotion, and segmentation.
-
----
-
-## 📈 Dashboard Overview
-
-**🔗 [View Live Dashboard on Tableau Public](https://public.tableau.com/views/RetailPerformanceDashboardSalesTrendsCustomerBehaviorAnalysis/RetailInsightsDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**  
-*(click the link to explore the interactive dashboard)*
-![Dashboard Preview](images/dashboard_preview.png) 
+This project analyzes transactional retail data to identify which products sell best, how customer segments behave, and what store-level actions can drive more revenue. The dashboard and recommendations support multiple departments — from marketing and finance to inventory and operations.
 
 ---
 
 ## 🧾 Executive Summary
 
-This dashboard provides a high-level view of sales and customer activity during 2023. It answers three key stakeholder questions:
+This dashboard answers three high-impact business questions:
 
-1. **Top-performing product categories** in Q2 2023
-2. **Average basket size** by customer gender
-3. **Monthly revenue trend** throughout the year
+1. **Which customer segments contribute most to revenue?**
+2. **How does the timing or frequency of purchases affect revenue generation?**
+3. **If we could only stock or promote a limited range of products, which ones should be prioritized?**
 
-### 📌 Highlights:
-- **Clothing and Electronics** were the most profitable categories in Q2.
-- **Male customers** purchased slightly more items per transaction on average.
-- **Revenue increased in Q2**, indicating potential seasonal opportunities.
+### 📊 Dashboard Overview
 
-Decision-makers can use this data to guide marketing strategy, inventory planning, and customer segmentation initiatives.
+The dashboard includes:
+- Segment-based revenue breakdown by gender, city, and customer type
+- Analysis of revenue by day of week and hour of day
+- A prioritized product list by total revenue and average unit price
 
----
+> 🔗 [View the live dashboard on Tableau Public](YOUR_TABLEAU_PUBLIC_LINK_HERE)
 
-## 🔍 Deep Dive: Analytical Insights
-
-The dataset includes 1,000 retail transactions with the following fields: date, gender, age, product category, quantity, unit price, and total amount. 
-
-**SQL Queries Were Used To:**
-- Aggregate revenue by category and quarter
-- Calculate average basket size by gender
-- Identify revenue patterns by month
-
-**Data Visualization Techniques:**
-- Bar charts for categorical comparisons
-- Line graphs to show revenue trends
-- Filter controls for time, gender, and product categories
-
-All calculations (e.g., revenue = quantity × unit price) were validated and exported to Tableau using a clean dataset.
+![Dashboard Preview](images/dashboard_preview.png)
 
 ---
 
+### ✅ Actionable Recommendations
+
+- **Target loyal and female customers with high-value promotions.**
+  - *📣 Marketing Insight:* These segments contribute disproportionately to total revenue — targeted offers could increase lifetime value.
+
+- **Focus staffing and promotions during peak hours (1–3 PM) and weekends.**
+  - *🛒 Operations Insight:* Helps align labor with traffic spikes and optimize customer service.
+
+- **Emphasize high-revenue product categories like "Food and beverages" and "Fashion accessories".**
+  - *📦 Inventory Insight:* Helps plan restocks and warehouse space around top-selling goods.
+  - *💰 Finance Insight:* Focus financial projections on top-contributing product lines.
+
+- **Use price-per-unit trends to identify margin opportunities in underperforming categories.**
+  - *🧠 Strategy Insight:* Products with high price but low total revenue may need better positioning or bundling.
+
+---
+
+## 🔍 Deep Dive: Analytical Approach
+
+### 🧮 Dataset Overview
+
+- Retail sales data from multiple store locations
+- Includes `Invoice ID`, `Product Line`, `Customer Type`, `Gender`, `City`, `Payment Method`, `Date`, `Time`, `Quantity`, `Unit Price`, and `Total`
+
+### 💾 SQL-Based Analysis
+
+- Used MySQL to compute:
+  - Total and average revenue per customer segment
+  - Peak time patterns by extracting hour/day from timestamps
+  - Product-level performance metrics
+
+- Created clean calculated fields like `Revenue`, `PricePerUnit`, and extracted dimensions like `Hour` and `Weekday`
+
+### 📊 Tableau Visualizations
+
+- **Bar charts** for customer and product segment comparisons
+- **Heatmaps** for purchase timing trends
+- **Treemaps** and **ranked lists** for product prioritization
+
+---
 
 ## 🔗 Data Source
 
-This dataset was sourced from **Gigasheet's public sample datasets**, specifically the [Retail Sales Dataset](https://www.gigasheet.com/sample-data/retail-sales-dataset?utm_source=chatgpt.com). It is a **synthetic dataset** created to simulate real-world retail transactions for data analysis and dashboard demonstrations.
-
-> **Source**: [Gigasheet – Retail Sales Dataset](https://www.gigasheet.com/sample-data/retail-sales-dataset)
-
----
-
-## 💡 Suggestions & Business Recommendations
-
-Based on insights from this analysis, the following actions are recommended:
-
-- 🎯 **Invest in Clothing and Electronics inventory** heading into Q2, as these categories historically outperform others.
-- 🧍 **Target male customers with bundled product promotions**, as they tend to purchase more items per transaction.
-- 📅 **Plan marketing campaigns in Q2** to take advantage of seasonal sales surges.
-- 🔄 **Continue tracking average basket size** by gender over time to evaluate the effectiveness of segmentation strategies.
-- 📦 **Evaluate underperforming categories** (e.g., Beauty or Home Goods) for potential markdowns or restocking reductions.
+This dataset is publicly available from Gigasheet’s sample data gallery:  
+[Retail Sales Dataset – Gigasheet](https://www.gigasheet.com/sample-data/retail-sales-dataset?utm_source=chatgpt.com)
 
 ---
 
 ## 🛠️ Tools Used
 
-- **SQL (MySQL)**: Data transformation and stakeholder-focused querying
-- **Tableau Public**: Interactive dashboard design and filtering
-- **Python (Pandas)**: Data cleanup and feature engineering
+- **SQL (MySQL dialect):** For transformation, aggregation, and segmentation
+- **Tableau Public:** For dashboard creation and storytelling
+- **Python (Pandas):** For light preprocessing and CSV cleaning
 
 ---
 
-## 📁 Supporting Files (Included in this Repository)
+## 📁 Repository Structure
 
-- `retail_sales_table_setup.sql`: MySQL schema for table creation
-- `retail_sales_stakeholder_queries.sql`: SQL queries for business analysis
-- `retail_sales_clean.csv`: Final dataset with calculated fields
-- `README.md` – Full executive summary, technical walkthrough, and recommendations
+```
+retail-insights-project/
+│
+├── data/
+│   └── retail_sales_cleaned.csv
+│
+├── sql/
+│   ├── retail_table_setup.sql
+│   ├── q1_segment_revenue.sql
+│   ├── q2_timing_patterns.sql
+│   └── q3_top_products.sql
+│
+├── images/
+│   └── dashboard_preview.png
+│
+├── LICENSE
+├── README.md
+```
+
 ---
 
 ## 👋 About the Analyst
