@@ -84,7 +84,7 @@ Based on insights from this analysis, the following actions are recommended:
 - `retail_sales_table_setup.sql`: MySQL schema for table creation
 - `retail_sales_stakeholder_queries.sql`: SQL queries for business analysis
 - `retail_sales_clean.csv`: Final dataset with calculated fields
-
+- `README.md` – Full executive summary, technical walkthrough, and recommendations
 ---
 
 ## 👋 About the Analyst
