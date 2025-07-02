@@ -21,7 +21,7 @@ The dashboard includes:
 - Analysis of revenue by day of week and hour of day
 - A prioritized product list by total revenue and average unit price
 
-> 🔗 [View the live dashboard on Tableau Public](YOUR_TABLEAU_PUBLIC_LINK_HERE)
+> 🔗 [View the live dashboard on Tableau Public](https://public.tableau.com/views/RetailPerformanceDashboardSalesTrendsCustomerBehaviorAnalysis/RetailInsightsDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) 
 
 ![Dashboard Preview](images/dashboard_preview.png)
 
