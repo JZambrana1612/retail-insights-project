@@ -109,5 +109,5 @@ retail-insights-project/
 ## 👋 About the Analyst
 
 **Jeremy Gutierrez**  
-Aspiring Data Analyst focused on actionable insights, stakeholder communication, and AI-enhanced workflows.  
+Aspiring Data Analyst focused on actionable insights and stakeholder communication.  
 Let’s connect: [LinkedIn](https://www.linkedin.com/in/jeremy-gutierrez-4502391bb/) | [GitHub](https://github.com/JZambrana1612) 
