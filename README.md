@@ -11,6 +11,7 @@ This project analyzes customer transaction data from a retail business using SQL
 
 **🔗 [View Live Dashboard on Tableau Public](https://public.tableau.com/views/RetailPerformanceDashboardSalesTrendsCustomerBehaviorAnalysis/RetailInsightsDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**  
 *(click the link to explore the interactive dashboard)*
+![Dashboard Preview](images/dashboard_preview.png) 
 
 ---
 
