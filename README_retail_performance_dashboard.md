@@ -9,7 +9,7 @@ This project analyzes customer transaction data from a retail business using SQL
 
 ## 📈 Dashboard Overview
 
-**🔗 [View Live Dashboard on Tableau Public](YOUR_TABLEAU_PUBLIC_LINK_HERE)**  
+**🔗 [View Live Dashboard on Tableau Public](https://public.tableau.com/views/RetailPerformanceDashboardSalesTrendsCustomerBehaviorAnalysis/RetailInsightsDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**  
 *(click the link to explore the interactive dashboard)*
 
 ---
@@ -74,7 +74,6 @@ Based on insights from this analysis, the following actions are recommended:
 - `retail_sales_table_setup.sql`: MySQL schema for table creation
 - `retail_sales_stakeholder_queries.sql`: SQL queries for business analysis
 - `retail_sales_clean_for_tableau.csv`: Final dataset with calculated fields
-- `README.md`: Executive summary, insights, and recommendations
 
 ---
 
@@ -82,4 +81,4 @@ Based on insights from this analysis, the following actions are recommended:
 
 **Jeremy Gutierrez**  
 Aspiring Data Analyst focused on actionable insights, stakeholder communication, and AI-enhanced workflows.  
-Let’s connect: [LinkedIn](https://www.linkedin.com/in/your-profile) | [GitHub](https://github.com/your-profile)
+Let’s connect: [LinkedIn](https://www.linkedin.com/in/jeremy-gutierrez-4502391bb/) | [GitHub](https://github.com/JZambrana1612) 
