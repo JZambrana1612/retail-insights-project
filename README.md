@@ -50,6 +50,15 @@ All calculations (e.g., revenue = quantity × unit price) were validated and exp
 
 ---
 
+
+## 🔗 Data Source
+
+This dataset was sourced from **Gigasheet's public sample datasets**, specifically the [Retail Sales Dataset](https://www.gigasheet.com/sample-data/retail-sales-dataset?utm_source=chatgpt.com). It is a **synthetic dataset** created to simulate real-world retail transactions for data analysis and dashboard demonstrations.
+
+> **Source**: [Gigasheet – Retail Sales Dataset](https://www.gigasheet.com/sample-data/retail-sales-dataset)
+
+---
+
 ## 💡 Suggestions & Business Recommendations
 
 Based on insights from this analysis, the following actions are recommended:
