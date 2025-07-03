@@ -29,18 +29,18 @@ The dashboard includes:
 
 ### ✅ Actionable Recommendations
 
-- **Target loyal and female customers with high-value promotions.**
-  - *📣 Marketing Insight:* These segments contribute disproportionately to total revenue — targeted offers could increase lifetime value.
+- **📣 Marketing Insight:* These segments contribute disproportionately to total revenue — targeted offers could increase lifetime value.**
+  - *Target loyal and female customers with high-value promotions.
 
-- **Focus staffing and promotions during peak hours (1–3 PM) and weekends.**
-  - *🛒 Operations Insight:* Helps align labor with traffic spikes and optimize customer service.
+- **🛒 Operations Insight:* Helps align labor with traffic spikes and optimize customer service.**
+  - *Focus staffing and promotions during peak hours (1–3 PM) and weekends.
 
-- **Emphasize high-revenue product categories like "Food and beverages" and "Fashion accessories".**
-  - *📦 Inventory Insight:* Helps plan restocks and warehouse space around top-selling goods.
-  - *💰 Finance Insight:* Focus financial projections on top-contributing product lines.
+- **📦 Inventory Insight:* Helps plan restocks and warehouse space around top-selling goodsEmphasize high-revenue product categories like "Food and beverages" and "Fashion accessories".**
+- **💰 Finance Insight:* Focus financial projections on top-contributing product lines.**
+  - *Emphasize high-revenue product categories like "Food and beverages" and "Fashion accessories".
 
-- **Use price-per-unit trends to identify margin opportunities in underperforming categories.**
-  - *🧠 Strategy Insight:* Products with high price but low total revenue may need better positioning or bundling.
+- **🧠 Strategy Insight:* Products with high price but low total revenue may need better positioning or bundling.**
+  - *Use price-per-unit trends to identify margin opportunities in underperforming categories.
 
 ---
 
