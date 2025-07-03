@@ -30,17 +30,17 @@ The dashboard includes:
 ### ✅ Actionable Recommendations
 
 - **📣 Marketing Insight:* These segments contribute disproportionately to total revenue — targeted offers could increase lifetime value.**
-  - *Target loyal and female customers with high-value promotions.
+  - Target loyal and female customers with high-value promotions.
 
 - **🛒 Operations Insight:* Helps align labor with traffic spikes and optimize customer service.**
-  - *Focus staffing and promotions during peak hours (1–3 PM) and weekends.
+  Focus staffing and promotions during peak hours (1–3 PM) and weekends.
 
 - **📦 Inventory Insight:* Helps plan restocks and warehouse space around top-selling goodsEmphasize high-revenue product categories like "Food and beverages" and "Fashion accessories".**
 - **💰 Finance Insight:* Focus financial projections on top-contributing product lines.**
-  - *Emphasize high-revenue product categories like "Food and beverages" and "Fashion accessories".
+  - Emphasize high-revenue product categories like "Food and beverages" and "Fashion accessories".
 
 - **🧠 Strategy Insight:* Products with high price but low total revenue may need better positioning or bundling.**
-  - *Use price-per-unit trends to identify margin opportunities in underperforming categories.
+  - Use price-per-unit trends to identify margin opportunities in underperforming categories.
 
 ---
 
@@ -109,5 +109,5 @@ retail-insights-project/
 ## 👋 About the Analyst
 
 **Jeremy Gutierrez**  
-Aspiring Data Analyst focused on actionable insights and stakeholder communication.  
+Data Analyst focused on actionable insights and stakeholder communication.  
 Let’s connect: [LinkedIn](https://www.linkedin.com/in/jeremy-gutierrez-4502391bb/) | [GitHub](https://github.com/JZambrana1612) 
