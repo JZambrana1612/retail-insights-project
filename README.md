@@ -89,6 +89,7 @@ This dataset is publicly available from Gigasheet’s sample data gallery:
 retail-insights-project/
 │
 ├── data/
+│   ├── retail_sales_full_dataset.csv
 │   └── retail_sales_cleaned.csv
 │
 ├── sql/
@@ -101,7 +102,7 @@ retail-insights-project/
 │   └── dashboard_preview.png
 │
 ├── LICENSE
-├── README.md
+└── README.md
 ```
 
 ---
